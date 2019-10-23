@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Formulario</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+            <body>
+               <form action="post"> 
+                   <fieldset> 
+                            <legend>Datos Personales</legend>
+                            <label for="nombre">Ingresar Nombre : </label>
+                            <input type="text" name="nombre" id="nombre" size="20" required=true placeholder="Ingrese su nombre">
+                            </br>
+                            </br>
+                            <label for="pass">Ingrese su clave : </label>
+                            <input type="password" name="pass" id="pass" required=true size="20" placeholder="Ingrese su clave">
+                            </br>
+                            </br>  
+                            <label for="mail">Ingrese su Email : </label>
+                            <input type="email" name="mail" id="mail" size="40" required=true placeholder="Ingrese su Email">           
+                    </fieldset>
+                     </br>      
+                     <label for="colores">Seleccionar Color: </label>
+                     <select name="colores" id="colores">
+                        <option value="1">AZUL</option>
+                        <option value="2">AMARILLO</option>
+                        <option value="3">NEGRO</option>
+                     </select>
+                    </br>  
+                </br>
+                    <label for="sexo">Chequear Sexo: </label>
+                </br>
+                    <label>  Masculino: <input type="checkbox" name="sexo" id="mail"></label>  
+                    <label>  Femenino: <input type="checkbox" name="sexo" id="mail"> </label> 
+                    </br>
+                </br>
+            </br>
+            <label for="sexo">Seleccinar la opcion correcta: </label>
+        </br>
+            <label>  Bueno: <input type="radio" name="sexo" id="sexo"></label>  
+            <label>  Malo: <input type="radio" name="sexo" id="sexo"> </label> 
+            <label>  Regular: <input type="radio" name="sexo" id="sexo"> </label> 
+            </br>
+        </br>
+    </br>
+    <label for="fecha">Ingrese Fecha y Hora: </label>
+</br>
+    <input type="range" name="fecha" id="fecha">
+</br>
+    <label>  Fecha: <input type="date" name="fecha" id="fecha"> </label> 
+    <label>  Hora: <input type="time" name="fecha" id="fecha"> </label> 
+    </br>
+</br>
+                     <label for="comentario">Ingrese un comentario : </label> 
+                    </br>              
+                     <textarea name="comentario" id="comentario" cols="50" rows="10"></textarea>
+                    </br>
+                    </br>                  
+                    <input type="submit" value="Enviar"> 
+                </form>
+            </body>
+    </html>
